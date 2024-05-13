@@ -10,7 +10,9 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <CurrentUserProvider>
+      <ProfileDataProvider>
         <App />
+        </ProfileDataProvider>
       </CurrentUserProvider>
     </Router>
   </React.StrictMode>,
